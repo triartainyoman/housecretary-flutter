@@ -31,7 +31,7 @@ class HomePage extends StatelessWidget {
     ];
 
     return Scaffold(
-      backgroundColor: backgroundColor,
+      backgroundColor: whiteColor,
       body: SafeArea(
         bottom: false,
         child: ListView(

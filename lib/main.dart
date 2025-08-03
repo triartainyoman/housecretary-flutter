@@ -43,7 +43,7 @@ class _MainNavigationState extends State<MainNavigation> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: backgroundColor,
+      backgroundColor: whiteColor,
       body: SafeArea(child: _pages[_currentIndex]),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
